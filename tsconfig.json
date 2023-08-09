@@ -1,0 +1,13 @@
+{
+  "compilerOptions": {
+    "allowSyntheticDefaultImports": true,
+    "strict": true,
+    "moduleResolution": "Node16",
+    "target": "ES2022",
+    "module": "ESNext"
+  },
+  "include": ["src/**/*.ts"],
+  "ts-node": {
+    "esm": true
+  }
+}
