@@ -2,5 +2,6 @@
 
 ```shell
 yarn
-yarn start
+yarn test-node
+yarn test-web
 ```

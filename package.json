@@ -5,13 +5,16 @@
   "license": "MIT",
   "type": "module",
   "scripts": {
-    "start": "yarn ts-node src/index.ts"
+    "test-node": "yarn ts-node src/node/index.ts",
+    "test-web": "yarn parcel src/web/index.html"
   },
   "dependencies": {
     "@tatumio/tatum": "3.0.6"
   },
   "devDependencies": {
     "@types/node": "20.4.9",
+    "parcel": "2.9.3",
+    "process": "^0.11.10",
     "ts-node": "10.9.1",
     "typescript": "5.1.6"
   }
